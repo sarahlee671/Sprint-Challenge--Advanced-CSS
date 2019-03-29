@@ -1,16 +1,16 @@
 // Mixins Here
-.custom-btn(@bck-color, @width) {
+.custom-btn(@bck-color, @width, @height) {
     display: block;
     background-color: @bck-color;
     color: white;
     margin: 0 0 20px;
     cursor: pointer;
     width: @width;
-    height: 30px;
+    height: @height;
     font-size: 2rem;
     border-radius: 5px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     &:hover {
         background-color: white;
         color: @bck-color;
