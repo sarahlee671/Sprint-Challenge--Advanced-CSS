@@ -1,1 +1,19 @@
 // Mixins Here
+.custom-btn(@bck-color, @width) {
+    display: block;
+    background-color: @bck-color;
+    color: white;
+    margin: 0 0 20px;
+    cursor: pointer;
+    width: @width;
+    height: 30px;
+    font-size: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    &:hover {
+        background-color: white;
+        color: @bck-color;
+    }
+    
+}
