@@ -345,6 +345,13 @@ footer {
     color: black;
   }
 }
+.home .walk .walk-text .btn a {
+  text-decoration: none;
+  color: white;
+}
+.home .walk .walk-text .btn a:hover {
+  color: black;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -359,4 +366,11 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+input {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
