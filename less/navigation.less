@@ -1,1 +1,47 @@
 // Navigation code here
+
+.top-section {
+    .custom-size(90px, 100%);
+    background: white;
+    @media @mobile {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .nav-content {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        .custom-position(center, space-around);
+
+        @media @mobile {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-top: 10px;
+        }
+    }
+        .spacewalkers {
+            display: flex;
+            font-size: 3rem;
+            align-items: flex-start;
+         
+        }
+
+        
+        .navigation {
+            width: 500px;
+            display: flex;
+            justify-content: space-around;
+            @media @mobile {
+                justify-content: space-between;
+                width: 100%;
+                margin: 0 auto;
+            }
+            a {
+                font-size: 2rem;
+                text-decoration: none;
+                color: black;
+            }
+        }
+}
